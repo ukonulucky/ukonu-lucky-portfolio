@@ -15,7 +15,7 @@ const greeting = {
     "A goal driven Frontend Software Developer 🚀 having experience in developing Dynamic Websites for both PC and Mobile views using Bootstrap / Materila UI / SASS / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1LT0Uy7duH_M_s4O7FLOljfXxXNE8gjwG/view?usp=sharing",
+    "https://drive.google.com/file/d/1LT0Uy7duH_M_s4O7FLOljfXxXNE8gjwG/view",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -118,7 +118,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Programming",
@@ -134,15 +134,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
      {
-      role: "Freelance",
-      company: "Cinfores Limited",
+      role: "Frontend Developer",
+      company: "Ububua Technologies",
       companylogo: require("./assets/images/cinfores.jpg"),
       date: "April 2021 – Present",
       desc:
         "Building Dynamic and Reponsive Webpages For Clients"
     },
     {
-      role: "Trainee",
+      role: "Frontend Developer",
       company: "Rivers State ICT Department",
       companylogo: require("./assets/images/techcreek.jpg"),
       date: "March 2021 – July 2021",
@@ -152,7 +152,7 @@ const workExperiences = {
   
     {
       role: "Intern",
-      company: "Ububa Technologies",
+      company: "Smart Web",
       companylogo: require("./assets/images/cpLogo.png"),
       date: "Febuary 2020 – January 2021",
       desc:
@@ -184,30 +184,65 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cubeet.png"),
+      projectName: "Cubeet",
+      projectDesc: "Personalise The Journet For every OF Your Website Visitors",
       footerLink: [
         {
           name: "Visit Website",
-          url: "fa"
+          url: "https://cubeet.io/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/shop4me.png"),
+      projectName: "Shop4me",
+      projectDesc: "An online shopping mall",
       footerLink: [
         {
           name: "Visit Website",
-          url: ""
+          url: "https://shop4me.com/"
+        }
+      ]
+    },
+   
+    {
+      image: require("./assets/images/butterstone.png"),
+      projectName: "Butterstone international school",
+      projectDesc: "A school management website",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.butterstoneschools.com/"
+        }
+      ]
+    },
+ 
+    // {
+    //   image: require("./assets/images/cam.png"),
+    //   projectName: "Loan-app",
+    //   projectDesc: "An online Loan app for money lending in Nigeria",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://loan-app-sigma.vercel.app/"
+    //     }
+    //   ]
+    // },
+    {
+      image: require("./assets/images/hoodie.png"),
+      projectName: "Hoodies online Shop",
+      projectDesc: "An online Hoode cloth store",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://online-store-beige.vercel.app/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
