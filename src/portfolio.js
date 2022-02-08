@@ -233,7 +233,7 @@ const bigProjects = {
     {
       image: require("./assets/images/hoodie.png"),
       projectName: "Hoodies online Shop",
-      projectDesc: "An online Hoode cloth store",
+      projectDesc: "An online Hoodie cloth store",
       footerLink: [
         {
           name: "Visit Website",
